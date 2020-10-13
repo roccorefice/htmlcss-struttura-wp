@@ -6,4 +6,89 @@
 
 body{
   background-image: url("https://cdn.discordapp.com/attachments/761546561938784260/765549206365798410/natural-default-pattern.png");
+  }
+
+.container{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  }
+
+.header{
+  height: 500px;
+  border: 1px solid red;
+  position: relative;
+  background-image: url("https://cdn.discordapp.com/attachments/761546561938784260/765549233691557938/natural-default-header.jpg");
+  border: 10px solid white;
+  background-size: cover;
+
+  }
+
+header{
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.nav{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: grey;
+  border-top: 10px solid white;
+}
+
+.sidebar_left{
+  height: 450px;
+  width: 20%;
+}
+
+.sidebar_main{
+  height: 400px;
+  width: 60%;
+  padding: 0 60px;
+}
+
+.sidebar_right{
+  width: 425px;
+  width: 20%;
+}
+
+.box_sx{
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+}
+
+.box_main{
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+}
+
+.box_dx{
+  height: 425px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float_left{
+  float: left;
+}
+
+.footer{
+  height: 150px;
+  width: auto;
+  background-color: white;
+  border-radius: 10px;
 }
