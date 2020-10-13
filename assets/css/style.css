@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/761546561938784260/765549206365798410/natural-default-pattern.png");
+}
